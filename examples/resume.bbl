@@ -1,0 +1,92 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \sortlist{ydnt}{ydnt}
+    \entry{JAD}{article}{}
+      \name{author}{8}{}{%
+        {{hash=a9589f614d0c532a4b230608e20c4d5c}{\textbf{A.P.\bibnamedelimi Ingber}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=2c4737771d09376d260290580b94b151}{Hassenstab}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=b826d348ef6160456172bbf7f7f39c85}{Fagan}{F\bibinitperiod}{A.M.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=a4a02876f241df4f2ca5b13983c34d8d}{Benzinger}{B\bibinitperiod}{T.L.S.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=27e6e8f7547e4f1202d13a69d3d0d72f}{Grant}{G\bibinitperiod}{E.A.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=1d78d8e2edfb11d3fcd50d9b74fc5baa}{Holtzman}{H\bibinitperiod}{D.M.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=e465d1f572ead442e97edf5075fcc0bc}{Morris}{M\bibinitperiod}{J.C.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=f88acd7a26da7e92fee573b50970ad79}{Roe}{R\bibinitperiod}{C.M.}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{972c199199ab051d58044ee1c79275f9}
+      \strng{fullhash}{5d7b3434ef189a8cc3001e49c925a6d0}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{In press}
+      \field{journaltitle}{Journal of Alzheimer's Disease}
+      \field{note}{In press}
+      \field{number}{3}
+      \field{title}{\href{http://content.iospress.com/articles/journal-of-alzheimers-disease/jad150478?resultNumber=0&totalResults=185&start=0&q=Cerebrospinal+Fluid+Biomarkers+and+Reserve+Variables+as+Predictors+of+Future+?Non-Cognitive?+Outcomes+of+Alzheimer?s+Disease&resultsPageSize=10&rows=10}{Cerebrospinal Fluid Biomarkers and Reserve Variables as Predictors of Future \enquote{Non-Cognitive} Outcomes of Alzheimer Disease}}
+      \field{volume}{52}
+      \field{year}{2016}
+      \field{pages}{TBD}
+      \range{pages}{-1}
+    \endentry
+    \entry{Kabarriti2016924}{article}{}
+      \name{author}{16}{}{%
+        {{hash=d53761de1e4483b87e54d1428ba2d703}{Kabarriti}{K\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=47f1d23a6b1376c0db1f2251847f611a}{Brodin}{B\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=6604d2fd7ea09465672d2acb9af5673f}{Berkowitz}{B\bibinitperiod}{A.G.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=d5958db0a6723258e4ad024ac229bf0d}{\textbf{A.\bibnamedelimi Ingber}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8ea91576ca81030d9830f1f46667f560}{Ohri}{O\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=5feaecfc818e6b9b28eebf8cf6df799f}{McGovern}{M\bibinitperiod}{K.P.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=7a6a6bf25cb4219880e01dd7f7d13422}{Ow}{O\bibinitperiod}{T.J.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=ffd06f86704f8b2daaec42fa3bcfc808}{Tassler}{T\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=fb1df512a8b7e2fa64476e292d4b0cc4}{Packer}{P\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=26cf3c388ad7304ff3abcb66b22fb26c}{Schiff}{S\bibinitperiod}{B.A.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=2091efd9ad31086367afca2f035ae6d2}{Smith}{S\bibinitperiod}{R.V.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=77c159a3d31b7188f91077021e55a99b}{Haigentz}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=ce600475d3a381ce78026de4aa283973}{Guha}{G\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=c22634d438dc748859b2f82a43f69610}{Kalnicki}{K\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=fae5c5426010891e2e9c4b7226fb3e78}{Tome}{T\bibinitperiod}{W.A.}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=2490bbeaeeb4ebf47edc4159922a2d3b}{Garg}{G\bibinitperiod}{M.K.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{28bf4fd056699d982f8869a71a5ad31b}
+      \strng{fullhash}{d693889ee935dff14cca9848f392976a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0360-3016}
+      \field{journaltitle}{International Journal of Radiation Oncology*Biology*Physics}
+      \field{number}{4}
+      \field{title}{\href{http://www.sciencedirect.com/science/article/pii/S0360301615270137}{Pretreatment FDG-PET Textural Analysis in Laryngeal Cancer Patients Treated With Definitive Radiation Therapy}}
+      \field{volume}{94}
+      \field{year}{2016}
+      \field{pages}{924}
+      \range{pages}{1}
+      \verb{doi}
+      \verb http://dx.doi.org/10.1016/j.ijrobp.2015.12.175
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0360301615270137
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

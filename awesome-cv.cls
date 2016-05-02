@@ -199,11 +199,8 @@
   BoldItalicFont=*-SemiboldIt
 ]{SourceSansPro}
 
-<<<<<<< HEAD
 % Set main font
-=======
 % Set main font, same as for body (default is Source Sans Pro)
->>>>>>> origin/feature/publications-biblatex
 \setmainfont[
   Path=\@fontdir,
   UprightFont=*-Regular,
@@ -211,24 +208,22 @@
   BoldFont=*-Bold,
   BoldItalicFont=*-BoldIt
 ]{SourceSansPro}
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/feature/publications-biblatex
 
 %-------------------------------------------------------------------------------
 %                Configuration for styles
 %-------------------------------------------------------------------------------
 % Configure styles for each CV elements
 % For fundamental structures
-\newcommand*{\headerfirstnamestyle}[1]{{\fontsize{32pt}{1em}\headerfontlight\color{graytext} #1}}
-\newcommand*{\headerlastnamestyle}[1]{{\fontsize{32pt}{1em}\headerfont\bfseries\color{text} #1}}
+%\newcommand*{\headerfirstnamestyle}[1]{{\fontsize{26pt}{1em}\headerfontlight\color{graytext} #1}}
+\newcommand*{\headerfirstnamestyle}[1]{{\fontsize{26pt}{1em}\headerfont\bfseries\color{text} #1}}
+\newcommand*{\headerlastnamestyle}[1]{{\fontsize{26pt}{1em}\headerfont\bfseries\color{text} #1}}
 \newcommand*{\headerpositionstyle}[1]{{\fontsize{7.6pt}{1em}\bodyfont\scshape\color{awesome} #1}}
 \newcommand*{\headeraddressstyle}[1]{{\fontsize{8pt}{1em}\headerfont\itshape\color{lighttext} #1}}
 \newcommand*{\headersocialstyle}[1]{{\fontsize{6.8pt}{1em}\headerfont\color{text} #1}}
 \newcommand*{\headerquotestyle}[1]{{\fontsize{9pt}{1em}\bodyfont\itshape\color{darktext} #1}}
 \newcommand*{\footerstyle}[1]{{\fontsize{8pt}{1em}\footerfont\scshape\color{lighttext} #1}}
-\newcommand*{\sectionstyle}[1]{{\fontsize{16pt}{1em}\bodyfont\bfseries\color{text}\@sectioncolor #1}}
+\newcommand*{\sectionstyle}[1]{{\fontsize{14pt}{1em}\bodyfont\bfseries\color{text}\@sectioncolor #1}}
 \newcommand*{\subsectionstyle}[1]{{\fontsize{12pt}{1em}\bodyfont\scshape\textcolor{text}{#1}}}
 \newcommand*{\paragraphstyle}{\fontsize{9pt}{1em}\bodyfontlight\upshape\color{text}}
 
@@ -390,7 +385,7 @@
 % Others
 %\newcommand{\acvSectionTopSkip}{3mm}
 %\newcommand{\acvSectionContentTopSkip}{2.5mm}
-\newcommand{\acvSectionTopSkip}{1mm}
+\newcommand{\acvSectionTopSkip}{0mm}
 \newcommand{\acvSectionContentTopSkip}{1mm}
 
 
@@ -715,20 +710,20 @@
 \DeclareFieldFormat[incollection]{title}{#1\par}
 
 \DeclareBibliographyDriver{article}{%
-  \printfield{title}%
+  \fontsize{10pt}{1em}\textcolor{darktext}{\printfield{title}}%
   \newblock%
-  \printnames{author}%
+  \fontsize{10pt}{1em}\textcolor{darktext}{\printnames{author}}%
   \par%
   \newblock%
   {%
-    \footnotesize\addfontfeature{Color=lightgray}\itshape%
-    \usebibmacro{journal+issuetitle}%
+  \footnotesize\addfontfeature{Color=lightgray}\itshape%
+     \fontsize{8pt}{1em}\usebibmacro{journal+issuetitle}%
     \setunit{\space}%
-    \printfield{pages}%
+     \fontsize{8pt}{1em}\printfield{pages}%
     \newunit%
-    \printlist{publisher}%
+    \fontsize{8pt}{1em} \printlist{publisher}%
     \setunit*{\addcomma\space}%
-    \printfield{year}%
+     \fontsize{8pt}{1em}\printfield{year}%
     \newunit%
   }
   \par\vspace{0.3\baselineskip}

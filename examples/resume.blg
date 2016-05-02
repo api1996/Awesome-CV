@@ -1,0 +1,21 @@
+[0] Config.pm:324> INFO - This is Biber 2.1
+[0] Config.pm:327> INFO - Logfile is 'resume.blg'
+[46] biber-darwin:276> INFO - === Mon Apr 25, 2016, 00:49:53
+[46] Biber.pm:333> INFO - Reading 'resume.bcf'
+[144] Biber.pm:645> INFO - Found 0 citekeys in bib section 0
+[144] Biber.pm:645> INFO - Found 2 citekeys in bib section 1
+[144] Biber.pm:645> INFO - Found 0 citekeys in bib section 0
+[161] Biber.pm:2977> INFO - Processing section 1
+[177] Biber.pm:3115> INFO - Looking for bibtex format file 'cv/references.bib' for section 1
+[179] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
+[181] bibtex.pm:895> INFO - Found BibTeX data source 'cv/references.bib'
+[195] Utils.pm:146> WARN - The field 'doi' in entry 'JAD' cannot be null, deleting it
+[195] Utils.pm:146> WARN - The field 'url' in entry 'JAD' cannot be null, deleting it
+[195] Utils.pm:146> WARN - The field 'note' in entry 'Kabarriti2016924' cannot be null, deleting it
+[231] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[231] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[231] Biber.pm:2854> INFO - Sorting list 'ydnt' of type 'entry' with scheme 'ydnt' and locale 'en-US'
+[231] Biber.pm:2858> INFO - No sort tailoring available for locale 'en-US'
+[235] bbl.pm:505> INFO - Writing 'resume.bbl' with encoding 'UTF-8'
+[236] bbl.pm:596> INFO - Output to resume.bbl
+[236] Biber.pm:106> INFO - WARNINGS: 3
